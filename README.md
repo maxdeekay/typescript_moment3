@@ -6,3 +6,5 @@ Det finns totalt 6 komponenter, en för varje undersida, en för header, en för
 Det finns totalt tre undersidor, en startsida med en inledande text och en bild på en stjärnhimmel, en undersida för konvertering av meter till fot samt celcius till fahrenheit och slutligen en undersida med en liten text om arbetet.
 
 Navigationen görs med hjälp av Angulars router-modul och konverteringen på undersidan <i>conversion</i> görs med hjälp av two-way data binding.
+
+[Länk till publicerad version för testkörning](https://typescript-moment3-maas2305.netlify.app/)
