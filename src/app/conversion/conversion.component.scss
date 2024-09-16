@@ -1,0 +1,47 @@
+.conversion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conversion-container>div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.conversion-container>div>input {
+    font-size: 24px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(224, 225, 221);
+    border: none;
+    text-align: center;
+    height: 40px;
+}
+
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.conversion-container>div>input:focus { outline: none; }
+
+.conversion-container>div>div {
+    background-color: rgb(224, 225, 221);
+    height: 40px;
+    width: 120px;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.conversion-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}

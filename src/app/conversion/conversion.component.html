@@ -1,0 +1,19 @@
+<div class="content-wrapper conversion-wrapper">
+    <div class="conversion-container">
+        <h2>Omvandla meter till fot</h2>
+        <div>
+            <input type="number" id="meters" [(ngModel)]="meters" (input)="metersToFeet()">
+            <span>></span>
+            <div>{{ feet }}</div>
+        </div>
+    </div>
+
+    <div class="conversion-container">
+        <h2>Omvandla celcius till Fahrenheit</h2>
+        <div>
+            <input type="number" id="celcius" [(ngModel)]="celcius" (input)="celciusToFarenheit()">
+            <span>></span>
+            <div>{{ fahrenheit }}</div>
+        </div>
+    </div>
+</div>
